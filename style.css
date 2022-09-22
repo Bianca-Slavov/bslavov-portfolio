@@ -6,7 +6,7 @@
 
 :root {
   --secondary-color: #1f2022;
-  --primary-color: #fd7456;
+  --primary-color: #F5D12B;
   --text-color: #35404e;
 }
 
@@ -88,12 +88,15 @@ a:hover {
 .title {
   text-align: center;
   color: var(--secondary-color);
-  margin-top: 20px;
-  font-weight: bolder;
+  margin: 80px;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
 }
 
 .project-name {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .project-img {
@@ -107,14 +110,8 @@ a:hover {
   text-align: inherit;
 }
 
-.first-name {
-  color: var(--secondary-color);
-  font-size: 60px;
-}
-
-.last-name {
-  color: var(--primary-color);
-  font-size: 40px;
+.tools {
+  color: #FEB992;
 }
 
 .hero {
@@ -128,12 +125,26 @@ a:hover {
   padding: 150px 0px;
   padding-left: 200px;
   margin-left: 0px;
+  font-size: 40px;
+  color: var(--primary-color)
+}
+
+.hero-intro{
+  color: var(--secondary-color);
+  margin: 30px 0;
 }
 
 .hero img {
   width: 400px;
   position: relative;
   top: 34px;
+}
+
+.scroll-down {
+  color: #c369f4;
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .btn-color {
@@ -152,30 +163,22 @@ a:hover {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.about-section h1,
-h2 {
-  color: black;
-}
-
 .about-section h1 {
-  font-weight: 900;
+  font-size: 30px;
+  margin: 50px 0px;
+  color: var(--primary-color);
 }
 
-.about-section h3 {
-  font-size: 24px;
-  font-weight: 700;
+.summary-about-me {
+  margin: 40px 200px;
 }
 
-.about-section {
-  padding: 160px 20px;
-}
-
-.about-section-content {
-  margin: 30px 30px;
+.line{
+  margin: 0px 200px;
 }
 
 .nav {
-  background: #fff;
+  background: #Fff;
   opacity: 95%;
   padding-bottom: 15px;
 }
@@ -186,12 +189,19 @@ h2 {
   font-weight: 900;
 }
 
+.nav-links li a:hover {
+  color: #c369f4;
+  text-decoration: none;
+  font-weight: 900;
+}
+
 .nav-links li {
   list-style: none;
   margin-left: 15px;
   margin-top: 40px;
   font-size: 18px;
   color: var(--text-color);
+  text-decoration: none;
 }
 
 .nav-links a,
@@ -200,11 +210,6 @@ h2 {
   color: var(--text-color);
 }
 
-.facts-about-me {
-  font-size: 14px;
-  color: var(--text-color);
-  opacity: 100%;
-}
 
 @media (max-width: 915px) {
   h1 {
@@ -225,10 +230,6 @@ h2 {
     text-align: center;
   }
 
-  #contact-me {
-    font-size: 18px;
-  }
-
   .about-me a {
     display: block;
     margin: 10px auto;
@@ -247,6 +248,10 @@ h2 {
   }
 
   .nav-links li {
-    font-size: 12px;
+    font-size: 18px;
+  }
+
+  .summary-about-me{
+    margin: 40px 30px;
   }
 }
