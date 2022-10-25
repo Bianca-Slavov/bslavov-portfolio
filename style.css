@@ -163,12 +163,16 @@ a:hover {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.about-section h1 {
-  font-size: 30px;
-  margin: 50px 0px;
+.page-title{
   color: var(--primary-color);
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px 0px 50px 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
+/* About me page */
 .summary-about-me {
   margin: 40px 200px;
 }
@@ -177,8 +181,27 @@ a:hover {
   margin: 0px 200px;
 }
 
+/* Certificates page */
+.certificates-section h1 {
+  font-size: 30px;
+  margin: 50px 0px;
+  color: var(--primary-color);
+}
+
+.certificates-img {
+  width: 500px;
+  height: 100%;
+}
+
+.certifcate-title {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 30px 0px 10px 0px;
+}
+
+
 .nav {
-  background: #Fff;
+  background: #fff;
   opacity: 95%;
   padding-bottom: 15px;
 }
