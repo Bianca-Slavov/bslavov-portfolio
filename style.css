@@ -167,9 +167,42 @@ a:hover {
   color: var(--primary-color);
   font-size: 26px;
   font-weight: bold;
-  margin: 20px 0px 50px 0px;
+  margin: 20px 0px 20px 0px;
   text-align: center;
   text-transform: uppercase;
+}
+
+/* Work page */
+.project-page{
+  border: 0.2px solid #ede7d0;
+  border-radius: 20px;
+  margin: 35px 0px;
+  padding: 20px 0px;
+  background-color: #f5f4f0;
+}
+
+.col-8 img{
+  width: 500px;
+  margin: 0px 200px;
+}
+
+.col-4{
+   margin: 0px -200px;
+   padding-top: 70px;
+}
+
+.h5-project-page{
+  font-size: 14px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.project-details{
+  margin: 0px 0px 50px 0px;
+  padding: 10px 50px;
+  font-size: 12px;
+  text-align: inherit;
 }
 
 /* About me page */
@@ -185,10 +218,11 @@ a:hover {
 .certificates-section h1 {
   font-size: 30px;
   margin: 50px 0px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .certificates-img {
+  margin: 10px 0px;
   width: 500px;
   height: 100%;
 }
