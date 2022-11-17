@@ -90,7 +90,7 @@ a:hover {
   color: var(--secondary-color);
   margin: 80px;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
@@ -181,13 +181,8 @@ a:hover {
   background-color: #f5f4f0;
 }
 
-.project-img{
+.projects-img{
   width: 450px;
-}
-
-.col-4{
-   margin: 0px -100px;
-   padding-top: 70px;
 }
 
 .projects-subheader{
