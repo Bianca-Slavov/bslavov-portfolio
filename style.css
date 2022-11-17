@@ -173,7 +173,7 @@ a:hover {
 }
 
 /* Work page */
-.project-page{
+.row-projects{
   border: 0.2px solid #ede7d0;
   border-radius: 20px;
   margin: 35px 0px;
@@ -181,28 +181,50 @@ a:hover {
   background-color: #f5f4f0;
 }
 
-.col-8 img{
-  width: 500px;
-  margin: 0px 200px;
+.project-img{
+  width: 450px;
 }
 
 .col-4{
-   margin: 0px -200px;
+   margin: 0px -100px;
    padding-top: 70px;
 }
 
-.h5-project-page{
+.projects-subheader{
   font-size: 14px;
   text-align: center;
   font-weight: normal;
   margin-bottom: 40px;
 }
 
+.project-title{
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .project-details{
-  margin: 0px 0px 50px 0px;
   padding: 10px 50px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.btn-project-page {
+  color: white;
+  background: #fd7456;
+  border-radius: 15px;
   font-size: 12px;
-  text-align: inherit;
+  padding: 10px 25px;
+  text-decoration: none;
+  border: 1px solid #fd7456;
+  width: 200px;
+}
+
+.btn-project-page:hover {
+  color: var(--primary-color);
+  background: white;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 /* About me page */
@@ -312,3 +334,4 @@ a:hover {
     margin: 40px 30px;
   }
 }
+
